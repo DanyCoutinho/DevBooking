@@ -1,7 +1,5 @@
 # DevBooking
-Agendamento de serviço
-
-WordPress plugin for booking, appointments and events.
+Serviço de Agendamentos e Eventos com Contabilidade.
 
 1- O que o projeto faz?
 

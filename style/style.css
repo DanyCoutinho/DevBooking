@@ -1,6 +1,86 @@
 @charset "UTF-8";
 
-body {
-    background-color: aliceblue;
+/* Responsividade */
+/*
+Entre 400px e 800px de largura
+*/
+
+/* Cores */
+/*
+#ffffff
+#f2594b
+#ffdd00
+#f0f8ff
+#51bbfe
+#222fbf
+#1e2339
+*/
+
+/* Fontes */
+/*
+Russo One
+Raleway
+Poppins
+Roboto
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap');
+
+:root {
+    --cor0: #ffffff;
+    --cor1: #f2594b;
+    --cor2: #ffdd00;
+    --cor3: #f0f8ff;
+    --cor4: #51bbfe;
+    --cor5: #222fbf;
+    --cor6: #1e2339;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-titulo: 'Russo One', sans-serif;
+    --fonte-destaque: 'Roboto', sans-serif;
+    --fonte-texto: 'Raleway', sans-serif;
+    --fonte-botao:  'Poppins', sans-serif;
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 20px;
+
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
